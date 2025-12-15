@@ -40,7 +40,7 @@
         };
 
         muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
+            bindings = <&kp ESC>;
             key-positions = <11 10>;
         };
 
@@ -52,6 +52,11 @@
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
+        };
+
+        combo-colon {
+            bindings = <&kp RC(COLON)>;
+            key-positions = <19 20>;
         };
     };
 
