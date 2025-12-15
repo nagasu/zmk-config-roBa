@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &lt 6 W         &lt 5 E      &kp R    &kp T                                                            &kp Y                &kp U  &mt RS(RIGHT_WIN) I  &kp O                &kp P
-&lt 3 A             &lt 2 S         &lt 1 D      &kp F    &kp G           &trans                    &kp MINUS              &kp H                &kp J  &mt RIGHT_WIN K      &mt RIGHT_CONTROL L  &mt RIGHT_ALT SEMICOLON
-&kp Z               &mt LEFT_ALT X  &mt LCTRL C  &kp V    &kp B           &sk LS(LG(K))             &sk RS(RG(F))          &kp N                &kp M  &kp COMMA            &kp DOT              &mt RIGHT_ALT COLON
-&sk LC(LEFT_ARROW)  &tog 6          &kp TAB      &kp ESC  &mt LWIN LANG2  &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                   &sk RC(RIGHT)
+&kp Q               &lt 6 W         &lt 5 E      &kp R    &kp T                                                            &kp Y                &kp U  &mt RS(RIGHT_WIN) I  &kp O                     &kp P
+&lt 3 A             &lt 2 S         &lt 1 D      &kp F    &kp G           &trans                    &kp MINUS              &kp H                &kp J  &kp K                &kp L                     &mt RIGHT_ALT SEMICOLON
+&kp Z               &mt LEFT_ALT X  &mt LCTRL C  &kp V    &kp B           &sk LS(LG(K))             &sk RS(RG(F))          &kp N                &kp M  &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &mt RIGHT_ALT COLON
+&sk LC(LEFT_ARROW)  &tog 6          &kp TAB      &kp ESC  &mt LWIN LANG2  &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                        &sk RC(RIGHT)
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -103,7 +103,7 @@
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp PIPE              &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp GRAVE             &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp NON_US_BACKSLASH  &kp HASH       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                            &trans
+&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &kp DOUBLE_QUOTES                                                                 &trans
             >;
         };
 
