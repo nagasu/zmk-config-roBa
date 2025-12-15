@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &lt 6 W           &lt 5 E      &kp R    &kp T                                                            &kp Y                &kp U  &mt RS(RIGHT_WIN) I  &kp O    &kp P
-&lt 3 A             &lt 2 S           &lt 1 D      &kp F    &kp G           &trans                    &kp MINUS              &kp H                &kp J  &kp K                &kp L    &mt RIGHT_CONTROL SEMICOLON
-&kp Z               &mt LEFT_ALT X    &mt LCTRL C  &kp V    &kp B           &sk LS(LG(K))             &sk RS(RG(F))          &kp N                &kp M  &kp COMMA            &kp DOT  &mt RIGHT_ALT COLON
-&sk LC(LEFT_ARROW)  &kp LC(LEFT_ALT)  &kp TAB      &kp ESC  &mt LWIN LANG2  &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                       &sk RC(RIGHT)
+&kp Q               &lt 6 W           &lt 5 E      &kp R    &kp T                                                            &kp Y                &kp U  &mt RS(RIGHT_WIN) I  &kp O                &kp P
+&lt 3 A             &lt 2 S           &lt 1 D      &kp F    &kp G           &trans                    &kp MINUS              &kp H                &kp J  &mt RIGHT_WIN K      &mt RIGHT_CONTROL L  &mt RIGHT_ALT SEMICOLON
+&kp Z               &mt LEFT_ALT X    &mt LCTRL C  &kp V    &kp B           &sk LS(LG(K))             &sk RS(RG(F))          &kp N                &kp M  &kp COMMA            &kp DOT              &mt RIGHT_ALT COLON
+&sk LC(LEFT_ARROW)  &kp LC(LEFT_ALT)  &kp TAB      &kp ESC  &mt LWIN LANG2  &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                   &sk RC(RIGHT)
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
