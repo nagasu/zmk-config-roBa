@@ -36,12 +36,12 @@
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+            key-positions = <10 11>;
         };
 
-        muhennkann {
+        esc {
             bindings = <&kp ESC>;
-            key-positions = <11 10>;
+            key-positions = <13 12>;
         };
 
         double_quotation {
