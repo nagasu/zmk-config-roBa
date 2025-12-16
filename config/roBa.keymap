@@ -58,6 +58,11 @@
             bindings = <&kp RC(COLON)>;
             key-positions = <19 20>;
         };
+
+        hifun {
+            bindings = <&kp MINUS>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
