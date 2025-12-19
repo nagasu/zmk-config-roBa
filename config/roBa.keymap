@@ -90,9 +90,9 @@
 
         default_layer {
             bindings = <
-&kp Q               &lt 6 W         &lt 5 E      &kp R    &kp T                                                            &kp Y                &kp U  &mt RS(RIGHT_WIN) I  &kp O                     &kp P
-&lt 3 A             &lt 2 S         &lt 1 D      &kp F    &kp G           &trans                    &kp MINUS              &kp H                &kp J  &kp K                &kp L                     &mt RIGHT_ALT SEMICOLON
-&kp Z               &mt LEFT_ALT X  &mt LCTRL C  &kp V    &kp B           &sk LS(LG(K))             &sk RS(RG(F))          &kp N                &kp M  &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp COLON
+&kp Q               &lt 6 W         &lt 5 E      &kp R    &kp T                                                            &kp Y                &kp U  &mt RS(RIGHT_WIN) I      &kp O                 &kp P
+&lt 3 A             &lt 2 S         &lt 1 D      &kp F    &kp G           &trans                    &kp MINUS              &kp H                &kp J  &kp K                    &kp L                 &lt 1 SEMICOLON
+&kp Z               &mt LEFT_ALT X  &mt LCTRL C  &kp V    &kp B           &kp TAB                   &sk RS(RG(F))          &kp N                &kp M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &kp COLON
 &sk LC(LEFT_ARROW)  &tog 6          &kp TAB      &kp ESC  &mt LWIN LANG2  &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                        &sk RC(RIGHT)
             >;
 
@@ -101,10 +101,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp F1          &kp F2    &kp F3        &kp F4     &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp BACKSPACE   &kp DEL   &kp RC(A)     &kp RC(E)  &kp RC(K)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                             &trans
+&trans  &trans                &trans         &trans  &trans                      &kp F1          &kp F2    &kp F3        &kp F4     &kp F5
+&trans  &sk LS(LG(LEFT_GUI))  &sk RS(RG(F))  &trans  &trans  &trans      &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp F10
+&trans  &trans                &trans         &trans  &trans  &trans      &trans  &kp BACKSPACE   &kp DEL   &kp RC(A)     &kp RC(E)  &kp RC(K)
+&trans  &trans                &trans         &trans  &trans  &trans      &trans  &trans                                             &trans
             >;
         };
 
