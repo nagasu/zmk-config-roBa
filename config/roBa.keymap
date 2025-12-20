@@ -101,7 +101,7 @@
 
         FUNCTION {
             bindings = <
-&trans        &trans                &trans         &trans         &trans                      &kp F1          &kp F2    &kp ESC       &kp F4     &kp F5
+&trans        &trans                &trans         &trans         &trans                      &kp F1          &kp TAB   &kp ESC       &kp TAB    &kp F5
 &sk LC(LEFT)  &sk LS(LG(LEFT_GUI))  &sk RS(RG(F))  &sk LC(RIGHT)  &trans  &trans      &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp COLON
 &trans        &trans                &trans         &trans         &trans  &trans      &trans  &kp BACKSPACE   &kp DEL   &kp RC(A)     &kp RC(E)  &kp RC(K)
 &trans        &trans                &trans         &trans         &trans  &trans      &trans  &kp MINUS                                          &trans
