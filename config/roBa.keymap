@@ -101,28 +101,28 @@
 
         FUNCTION {
             bindings = <
-&trans        &trans                &trans         &trans         &trans                      &kp F1          &kp TAB   &kp ESC       &kp TAB    &kp F5
-&sk LC(LEFT)  &sk LS(LG(LEFT_GUI))  &sk RS(RG(F))  &sk LC(RIGHT)  &trans  &trans      &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp COLON
-&trans        &trans                &trans         &trans         &trans  &trans      &trans  &kp BACKSPACE   &kp DEL   &kp RC(A)     &kp RC(E)  &kp RC(K)
-&trans        &trans                &trans         &trans         &trans  &trans      &trans  &kp MINUS                                          &trans
+&trans        &trans                &trans         &trans            &trans                            &kp F1          &kp TAB   &kp ESC       &kp TAB    &kp F5
+&sk LC(LEFT)  &sk LS(LG(LEFT_GUI))  &sk RS(RG(F))  &sk LC(RIGHT)     &trans        &trans      &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp COLON
+&trans        &trans                &trans         &trans            &trans        &trans      &trans  &kp BACKSPACE   &kp DEL   &kp RC(A)     &kp RC(E)  &kp RC(K)
+&trans        &trans                &trans         &kp LEFT_CONTROL  &kp LEFT_GUI  &trans      &trans  &kp MINUS                                          &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                     &kp PIPE              &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE    &kp GRAVE             &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp CARET         &kp NON_US_BACKSLASH  &kp HASH       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION
-&trans                      &trans           &trans           &trans           &trans        &trans                       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES                                                                 &kp TILDE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9   &kp PLUS                                                     &kp PIPE              &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE    &kp GRAVE             &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &kp PERIOD    &kp EQUAL                    &kp CARET         &kp NON_US_BACKSLASH  &kp HASH       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION
+&trans                      &trans           &trans           &kp LEFT_CONTROL  &kp LEFT_GUI  &trans                       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES                                                                 &kp TILDE
             >;
         };
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans      &kp N7  &kp N8  &kp N9  &kp PLUS
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp N0      &kp N4  &kp N5  &kp N6  &kp SLASH
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &kp PERIOD  &kp N1  &kp N2  &kp N3  &kp PERCENT
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                              &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                            &trans      &kp N7  &kp N8  &kp N9  &kp PLUS
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END       &trans      &trans  &kp N0      &kp N4  &kp N5  &kp N6  &kp SLASH
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans        &trans      &trans  &kp PERIOD  &kp N1  &kp N2  &kp N3  &kp PERCENT
+&trans          &trans                  &trans          &kp LEFT_CONTROL         &kp LEFT_GUI  &trans      &trans  &trans                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
