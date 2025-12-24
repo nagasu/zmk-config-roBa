@@ -93,7 +93,7 @@
 &kp Q               &lt 6 W         &lt 5 E      &kp R    &kp T                                                            &kp Y                &kp U  &mt RS(RIGHT_WIN) I      &kp O                &kp P
 &lt 3 A             &lt 2 S         &lt 1 D      &kp F    &kp G           &trans                    &kp PLUS               &kp H                &kp J  &kp K                    &kp L                &lt 1 SEMICOLON
 &kp Z               &mt LEFT_ALT X  &mt LCTRL C  &kp V    &kp B           &kp ESC                   &sk RS(RG(F))          &kp N                &kp M  &mt RIGHT_CONTROL COMMA  &mt LEFT_ALT PERIOD  &kp MINUS
-&sk LC(LEFT_ARROW)  &tog 6          &kp TAB      &kp TAB  &mt LWIN LANG2  &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                       &kp UNDER
+&sk LC(LEFT_ARROW)  &tog 6          &kp TAB      &kp TAB  &mt LWIN LANG2  &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                       &kp LC(RIGHT)
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -101,7 +101,7 @@
 
         FUNCTION {
             bindings = <
-&trans        &trans                &trans         &trans            &trans                            &kp F1          &kp TAB   &kp ESC       &kp TAB    &kp F5
+&trans        &trans                &trans         &trans            &trans                            &kp F1          &kp TAB   &kp ESC       &kp TAB    &sk UNDER
 &sk LC(LEFT)  &sk LS(LG(LEFT_GUI))  &sk RS(RG(F))  &sk LC(RIGHT)     &trans        &trans      &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp COLON
 &trans        &trans                &trans         &trans            &trans        &trans      &trans  &kp BACKSPACE   &kp DEL   &kp RC(A)     &kp RC(E)  &kp RC(K)
 &trans        &trans                &trans         &kp LEFT_CONTROL  &kp LEFT_GUI  &trans      &trans  &kp MINUS                                          &trans
