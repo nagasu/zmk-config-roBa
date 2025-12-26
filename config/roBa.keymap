@@ -72,6 +72,14 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        esc_lang2: esc_lang2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ESC>, <&macro_tap>, <&kp ESC &kp LANG2>;
+
+            label = "ESC_LANG2";
+        };
     };
 
     behaviors {
@@ -93,7 +101,7 @@
 &kp Q               &lt 6 W         &lt 5 E      &kp R      &kp T                                                            &kp Y                &kp U  &mt RS(RIGHT_WIN) I      &kp O                &kp P
 &lt 3 A             &lt 2 S         &lt 1 D      &mt ESC F  &kp G           &trans                    &kp PLUS               &kp H                &kp J  &kp K                    &kp L                &mt COLON SEMICOLON
 &kp Z               &mt LEFT_ALT X  &mt LCTRL C  &kp V      &kp B           &kp ESC                   &sk RS(RG(F))          &kp N                &kp M  &mt RIGHT_CONTROL COMMA  &mt LEFT_ALT PERIOD  &kp MINUS
-&sk LC(LEFT_ARROW)  &tog 6          &kp TAB      &kp TAB    &mt LWIN LANG2  &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                       &kp LC(RIGHT)
+&sk LC(LEFT_ARROW)  &tog 6          &esc_lang2   &kp TAB    &mt LWIN LANG2  &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                       &kp LC(RIGHT)
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
