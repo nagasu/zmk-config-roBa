@@ -98,10 +98,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &lt 6 W         &lt 5 E      &kp R      &kp T                                                            &kp Y                &kp U  &mt RS(RIGHT_WIN) I      &mt ASTERISK O       &mt UNDERSCORE P
-&lt 3 A             &lt 2 S         &lt 1 D      &mt ESC F  &kp G           &trans                    &kp PLUS               &kp H                &kp J  &kp K                    &kp L                &mt COLON SEMICOLON
-&kp Z               &mt LEFT_ALT X  &mt LCTRL C  &kp V      &kp B           &esc_lang2                &sk RS(RG(F))          &kp N                &kp M  &mt RIGHT_CONTROL COMMA  &mt LEFT_ALT PERIOD  &mt TILDE MINUS
-&sk LC(LEFT_ARROW)  &tog 6          &esc_lang2   &kp TAB    &mt LWIN LANG2  &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                       &kp LC(RIGHT)
+&kp Q               &lt 6 W         &lt 5 E      &mt F4 R   &mt F3 T                                                         &mt F8 Y             &mt F7 U  &mt RS(RIGHT_WIN) I      &mt ASTERISK O       &mt UNDERSCORE P
+&lt 3 A             &lt 2 S         &lt 1 D      &mt ESC F  &mt F5 G        &trans                    &kp PLUS               &kp H                &kp J     &kp K                    &kp L                &mt COLON SEMICOLON
+&kp Z               &mt LEFT_ALT X  &mt LCTRL C  &kp V      &kp B           &esc_lang2                &sk RS(RG(F))          &kp N                &kp M     &mt RIGHT_CONTROL COMMA  &mt LEFT_ALT PERIOD  &mt TILDE MINUS
+&sk LC(LEFT_ARROW)  &tog 6          &esc_lang2   &kp TAB    &mt LWIN LANG2  &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                          &kp LC(RIGHT)
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
