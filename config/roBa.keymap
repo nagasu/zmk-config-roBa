@@ -104,7 +104,7 @@
 &sk LC(LEFT_ARROW)  &tog 6          &esc_lang2   &kp TAB    &mt LWIN LANG2  &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                          &kp LC(RIGHT)
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(PLUS) LG(KP_MINUS)>;
+            sensor-bindings = <&inc_dec_kp LG(KP_MINUS) LG(KP_PLUS)>;
         };
 
         FUNCTION {
