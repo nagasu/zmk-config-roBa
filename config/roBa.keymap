@@ -98,10 +98,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &lt 6 W         &lt 5 E          &mt LS(LA(LCTRL)) R             &kp T                                                          &mt F8 Y             &mt F7 U  &mt RS(RIGHT_WIN) I      &mt ASTERISK O       &mt UNDERSCORE P
-&lt 3 A             &lt 2 S         &lt 1 D          &mt ESC F                       &mt LANG2 G   &kp LG(KP_N0)             &kp PLUS               &kp H                &kp J     &kp K                    &kp L                &mt COLON SEMICOLON
-&kp Z               &mt LEFT_ALT X  &mt LCTRL C      &mt LS(LA(LC(LEFT_GUI))) V      &mt F5 B      &mt F3 F4                 &sk RS(RG(F))          &kp N                &kp M     &mt RIGHT_CONTROL COMMA  &mt LEFT_ALT PERIOD  &mt TILDE MINUS
-&sk LC(LEFT_ARROW)  &tog 6          &mt LG(V) LG(C)  &mt LS(LA(LC(LEFT_GUI))) LANG2  &mt LWIN TAB  &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                          &kp LC(RIGHT)
+&kp Q               &lt 6 W         &lt 5 E          &mt LS(LA(LCTRL)) R             &mt LS(LG(K)) T                                                   &mt F8 Y             &mt F7 U  &mt RS(RIGHT_WIN) I      &mt ASTERISK O       &mt UNDERSCORE P
+&lt 3 A             &lt 2 S         &lt 1 D          &mt ESC F                       &mt LANG2 G      &kp LG(KP_N0)             &kp PLUS               &kp H                &kp J     &kp K                    &kp L                &mt COLON SEMICOLON
+&kp Z               &mt LEFT_ALT X  &mt LCTRL C      &mt LS(LA(LC(LEFT_GUI))) V      &mt F5 B         &mt F3 F4                 &sk RS(RG(F))          &kp N                &kp M     &mt RIGHT_CONTROL COMMA  &mt LEFT_ALT PERIOD  &mt TILDE MINUS
+&sk LC(LEFT_ARROW)  &tog 6          &mt LG(V) LG(C)  &mt LS(LA(LC(LEFT_GUI))) LANG2  &mt LWIN TAB     &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                          &kp LC(RIGHT)
             >;
 
             sensor-bindings = <&inc_dec_kp LG(KP_MINUS) LG(KP_PLUS)>;
@@ -118,10 +118,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9   &kp PLUS                                                     &kp PIPE              &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp DOLLAR        &kp DOLLAR    &kp LC(LA(KP_NUMBER_0))      &kp ASTERISK      &kp GRAVE             &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &kp PERIOD    &kp EQUAL                    &kp CARET         &kp NON_US_BACKSLASH  &kp HASH       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION
-&trans                      &trans           &trans           &kp LEFT_CONTROL  &kp LEFT_GUI  &trans                       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES                                                                 &kp TILDE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9   &kp PLUS                                                     &kp PIPE           &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp DOLLAR        &kp DOLLAR    &kp LC(LA(KP_NUMBER_0))      &kp ASTERISK      &kp GRAVE          &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &kp PERIOD    &kp EQUAL                    &kp CARET         &kp BACKSLASH      &kp HASH       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION
+&trans                      &trans           &trans           &kp LEFT_CONTROL  &kp LEFT_GUI  &trans                       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES                                                              &kp TILDE
             >;
         };
 
