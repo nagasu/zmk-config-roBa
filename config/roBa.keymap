@@ -99,7 +99,7 @@
 
         default_layer {
             bindings = <
-&kp Q               &lt 6 W         &lt 5 E          &mt LS(LA(LCTRL)) R             &mt LS(LG(K)) T                                                   &mt F8 Y             &mt F7 U   &mt RS(RIGHT_WIN) I      &mt ASTERISK O       &mt UNDERSCORE P
+&mt LS(LG(J)) Q     &lt 6 W         &lt 5 E          &mt LS(LA(LCTRL)) R             &mt LS(LG(K)) T                                                   &mt F8 Y             &mt F7 U   &mt RS(RIGHT_WIN) I      &mt ASTERISK O       &mt UNDERSCORE P
 &lt 3 A             &lt 2 S         &lt 1 D          &mt ESC F                       &mt LANG2 G      &kp DOLLAR                &kp DOLLAR             &kp H                &kp J      &kp K                    &kp L                &mt COLON SEMICOLON
 &kp Z               &mt LEFT_ALT X  &mt LCTRL C      &mt LS(LA(LC(LEFT_GUI))) V      &mt F5 B         &mt F3 F4                 &sk RS(RG(F))          &mt F14 N            &mt F13 M  &mt RIGHT_CONTROL COMMA  &mt LEFT_ALT PERIOD  &mt TILDE MINUS
 &sk LC(LEFT_ARROW)  &tog 6          &mt LG(V) LG(C)  &mt LS(LA(LC(LEFT_GUI))) LANG2  &mt LWIN TAB     &mt LEFT_SHIFT SPACE      &mt RIGHT_SHIFT ENTER  &mt RIGHT_WIN LANG1                                                           &kp LC(RIGHT)
